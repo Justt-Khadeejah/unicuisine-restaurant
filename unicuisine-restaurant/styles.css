@@ -1,0 +1,244 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+padding:0;
+background:#f5eee8;
+font-family:'Inter',sans-serif;
+color:#17352d;
+}
+
+.container{
+width:100%;
+background:#f5eee8;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 40px;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:600;
+}
+
+.logo-circle{
+width:28px;
+height:28px;
+border-radius:50%;
+background:#0d5c4a;
+}
+
+.nav-links{
+display:flex;
+gap:35px;
+list-style:none;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#17352d;
+}
+
+.phone-btn{
+padding:10px 20px;
+border-radius:30px;
+border:1px solid #17352d;
+background:white;
+cursor:pointer;
+}
+
+.hero{
+text-align:center;
+padding:30px 20px 60px;
+}
+
+.hero h1{
+font-family:'Cormorant Garamond',serif;
+font-size:64px;
+line-height:1.1;
+margin-bottom:40px;
+font-weight:600;
+}
+
+.gallery,
+.culture-gallery{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:18px;
+flex-wrap:wrap;
+}
+
+.small{
+width:120px;
+height:120px;
+object-fit:cover;
+border-radius:12px;
+}
+
+.medium{
+width:170px;
+height:170px;
+object-fit:cover;
+border-radius:12px;
+}
+
+.large{
+width:250px;
+height:250px;
+object-fit:cover;
+border-radius:12px;
+}
+
+.divider{
+border-top:1px dashed #bdb5ab;
+margin:40px;
+}
+
+.menu-section{
+padding:40px 90px;
+text-align:center;
+}
+
+.icon{
+font-size:24px;
+margin-bottom:10px;
+}
+
+.menu-title{
+font-family:'Cormorant Garamond',serif;
+font-size:48px;
+margin-bottom:35px;
+font-weight:600;
+}
+
+.menu-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px 40px;
+}
+
+.menu-item{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding-bottom:15px;
+border-bottom:1px dashed #bdb5ab;
+}
+
+.food{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.food img{
+width:60px;
+height:60px;
+border-radius:10px;
+object-fit:cover;
+}
+
+.food h4{
+font-size:15px;
+margin-bottom:4px;
+}
+
+.food p{
+font-size:12px;
+color:#666;
+}
+
+.book-btn{
+display:inline-block;
+margin-top:30px;
+padding:12px 28px;
+background:#0d5c4a;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.culture{
+padding:50px;
+text-align:center;
+}
+
+.culture h2{
+font-family:'Cormorant Garamond',serif;
+font-size:48px;
+margin-bottom:40px;
+font-weight:600;
+}
+
+.testimonial{
+background:#dfa12f;
+padding:60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-top:40px;
+}
+
+.testimonial-text{
+width:45%;
+font-family:'Cormorant Garamond',serif;
+font-size:22px;
+line-height:1.7;
+}
+
+.profile{
+display:flex;
+align-items:center;
+gap:15px;
+margin-top:25px;
+}
+
+.profile img{
+width:55px;
+height:55px;
+border-radius:50%;
+}
+
+.testimonial-image img{
+width:350px;
+height:330px;
+border-radius:20px;
+object-fit:cover;
+}
+
+footer{
+padding:60px;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:40px;
+}
+
+footer h4{
+margin-bottom:15px;
+font-size:18px;
+}
+
+footer p{
+margin-bottom:10px;
+color:#555;
+}
+
+.copyright{
+text-align:center;
+padding:20px;
+color:#777;
+font-size:13px;
+}
+
+
